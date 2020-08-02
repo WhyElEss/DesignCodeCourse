@@ -8,21 +8,26 @@
 import SwiftUI
 
 struct CoursesView: View {
-    @ViewBuilder
+    @State var show = false
+    
     var body: some View {
-        #if os(iOS)
-        content
-            .listStyle(InsetGroupedListStyle())
-        #else
-        content
-            .frame(minWidth: 800, minHeight: 600)
-        #endif
-    }
-    var content: some View {
-        List(0 ..< 20) { item in
-            CourseRow()
+        ZStack {
+            CourseItem()
+                .frame(width: 335, height: 250)
+            VStack {
+                if show {
+                    CourseItem()
+                        .transition(.move(edge: .leading))
+                        .edgesIgnoringSafeArea(.all)
+                }
+            }
         }
-        .navigationTitle("Courses")
+        .onTapGesture {
+            withAnimation(.spring()) {
+                show.toggle()
+            }
+        }
+//        .animation(.easeIn)
     }
 }
 
