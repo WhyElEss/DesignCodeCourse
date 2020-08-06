@@ -39,6 +39,8 @@
 		6A3FC1BD24DC2787002AD7C5 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3FC1B024DC2787002AD7C5 /* TutorialSection.swift */; };
 		6A3FC1BE24DC2787002AD7C5 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3FC1B124DC2787002AD7C5 /* LivestreamSection.swift */; };
 		6A3FC1BF24DC2787002AD7C5 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3FC1B124DC2787002AD7C5 /* LivestreamSection.swift */; };
+		6A3FC1C124DC2CDA002AD7C5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3FC1C024DC2CDA002AD7C5 /* VisualEffectBlur.swift */; };
+		6A3FC1C324DC2CEF002AD7C5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3FC1C224DC2CEF002AD7C5 /* VisualEffectBlur.swift */; };
 		6A61056724D7418A007A2C0A /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61056624D7418A007A2C0A /* CourseList.swift */; };
 		6A61056824D7418A007A2C0A /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61056624D7418A007A2C0A /* CourseList.swift */; };
 		6ABE6EE824D5973700AEA384 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6EE724D5973700AEA384 /* CourseItem.swift */; };
@@ -91,6 +93,8 @@
 		6A3FC1AF24DC2787002AD7C5 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		6A3FC1B024DC2787002AD7C5 /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
 		6A3FC1B124DC2787002AD7C5 /* LivestreamSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivestreamSection.swift; sourceTree = "<group>"; };
+		6A3FC1C024DC2CDA002AD7C5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		6A3FC1C224DC2CEF002AD7C5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		6A61056624D7418A007A2C0A /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		6ABE6EE724D5973700AEA384 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		6AC31E1124DAC9C9003A622C /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 		6A1F7F6124D2E84B00ADCC25 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6A3FC1C024DC2CDA002AD7C5 /* VisualEffectBlur.swift */,
 				6A1F7F6224D2E84B00ADCC25 /* Info.plist */,
 			);
 			path = iOS;
@@ -193,6 +198,7 @@
 		6A1F7F6824D2E84B00ADCC25 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				6A3FC1C224DC2CEF002AD7C5 /* VisualEffectBlur.swift */,
 				6A1F7F6924D2E84B00ADCC25 /* Info.plist */,
 				6A1F7F6A24D2E84B00ADCC25 /* macOS.entitlements */,
 			);
@@ -407,6 +413,7 @@
 				6A3FC1B824DC2787002AD7C5 /* Livestream.swift in Sources */,
 				6A3FC1B624DC2787002AD7C5 /* GradientModel.swift in Sources */,
 				6A1F7F8124D2E84B00ADCC25 /* DesignCodeCourseApp.swift in Sources */,
+				6A3FC1C124DC2CDA002AD7C5 /* VisualEffectBlur.swift in Sources */,
 				6A1F7F9924D2FBD700ADCC25 /* CoursesView.swift in Sources */,
 				6A61056724D7418A007A2C0A /* CourseList.swift in Sources */,
 			);
@@ -431,6 +438,7 @@
 				6A3FC1B924DC2787002AD7C5 /* Livestream.swift in Sources */,
 				6A3FC1B724DC2787002AD7C5 /* GradientModel.swift in Sources */,
 				6A1F7F8224D2E84B00ADCC25 /* DesignCodeCourseApp.swift in Sources */,
+				6A3FC1C324DC2CEF002AD7C5 /* VisualEffectBlur.swift in Sources */,
 				6A1F7F9A24D2FBD700ADCC25 /* CoursesView.swift in Sources */,
 				6A61056824D7418A007A2C0A /* CourseList.swift in Sources */,
 			);
